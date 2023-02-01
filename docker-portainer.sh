@@ -98,7 +98,18 @@ clear
           exit
       else
           echo
-          echo "Install Docker aborted!"
+          read -p "Are you want to install portainer? [y/n]: " input
+           until [[ "$input" =~ ^[yYnN]*$ ]]; do
+                  echo "$input: invalid selection."
+                  read -p "Are you want install portainer? [y/n]: " input
+              done
+              if [[ "$input" =~ ^[yY]$ ]]; then
+                  portainer
+                  echo
+                  echo "Portainer has been installed"
+              else
+                  echo
+                  echo "Install Docker and Portainer aborted!"
       fi
           exit
 }
