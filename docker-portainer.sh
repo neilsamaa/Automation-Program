@@ -40,7 +40,7 @@ function portainer() {
     portainer/portainer-ce:latest;
 }
 
-function menu(){
+function menu() {
 clear
       echo
       read -p "Are you want to Install Docker? [y/n]: " input
@@ -110,6 +110,7 @@ clear
               else
                   echo
                   echo "Install Docker and Portainer aborted!"
+              fi
       fi
           exit
 }
