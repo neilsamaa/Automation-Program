@@ -101,7 +101,5 @@ clear
           echo "Install Docker aborted!"
       fi
           exit
-    ;;
-	esac
 }
 menu
