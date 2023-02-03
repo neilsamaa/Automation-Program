@@ -3,13 +3,13 @@ Automation Program Shell and Python
 
 ## Program List
 
-| Name File | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| backup.sh | `bash` | **Required**. Your API key |
-| docker-portainer.sh | `bash` | **Required**. Your API key |
-| install-selection.sh | `python` | **Required**. Your API key |
-| python-backup-zip.py | `python` | **Required**. Your API key |
-| python-backup.py | `python` | **Required**. Your API key |
+| Name File | Type     | Input | Description                |
+| :-------- | :------- | :------- |:------------------------- |
+| backup.sh | `bash` | static | **Required**. Your API key |
+| docker-portainer.sh | `bash` | static | **Required**. Your API key |
+| install-selection.sh | `python` | static | **Required**. Your API key |
+| python-backup-zip.py | `python` | dynamic | **Required**. Your API key |
+| python-backup.py | `python` | static | **Required**. Your API key |
 
 ## How to run program
 #### Bash
