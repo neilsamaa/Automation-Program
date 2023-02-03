@@ -5,7 +5,7 @@ import zipfile
 OBJECT_TO_BACKUP = input("Enter the directory you want to backup: ")  # The file or directory to backup
 BACKUP_DIRECTORY = input("Enter the directory to save the backup: ")  # The location to store the backups in
 BACKUP_FILENAME = input("Enter the name of the backup file: ")
-MAX_BACKUP_AMOUNT = 5  # The maximum amount of backups to have in BACKUP_DIRECTORY
+MAX_BACKUP_AMOUNT = 3  # The maximum amount of backups to have in BACKUP_DIRECTORY
 
 object_to_backup_path = Path(OBJECT_TO_BACKUP)
 backup_directory_path = Path(BACKUP_DIRECTORY)
