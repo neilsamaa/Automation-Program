@@ -5,10 +5,10 @@ Automation Program Shell and Python
 
 | Name File | Type     | Input | Description                |
 | :-------- | :------- | :------- |:------------------------- |
-| backup.sh | `bash` | static | **Required**. Your API key |
-| docker-portainer.sh | `bash` | static | **Required**. Your API key |
-| install-selection.sh | `python` | static | **Required**. Your API key |
-| python-backup-zip.py | `python` | dynamic | **Required**. Your API key |
+| backup.sh | `bash` | static | Backup file |
+| docker-portainer.sh | `bash` | static | Install **docker** and **portainer** |
+| install-selection.sh | `python` | static | Install **docker** and **portainer** with selection options|
+| python-backup-zip.py | `python` | dynamic | Backup file with zip format file |
 | python-backup.py | `python` | static | **Required**. Your API key |
 
 ## How to run program
