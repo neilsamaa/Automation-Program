@@ -9,7 +9,7 @@ Automation Program Shell and Python
 | docker-portainer.sh | `bash` | static | Install **docker** and **portainer** |
 | install-selection.sh | `python` | static | Install **docker** and **portainer** with selection options|
 | python-backup-zip.py | `python` | dynamic | Backup file with zip format file |
-| python-backup.py | `python` | static | **Required**. Your API key |
+| python-backup.py | `python` | static | Backup file with tar format file |
 
 ## How to run program
 #### Bash
