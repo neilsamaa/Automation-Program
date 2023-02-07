@@ -7,7 +7,7 @@ Automation Program Shell and Python
 | :-------- | :------- | :------- |:------------------------- |
 | backup.sh | `bash` | static | Backup file |
 | docker-portainer.sh | `bash` | static | Install **docker** and **portainer** |
-| install-selection.sh | `python` | static | Install **docker** and **portainer** with selection options|
+| install-selection.sh | `bash` | static | Install **docker** and **portainer** with selection options|
 | python-backup-zip.py | `python` | dynamic | Backup file with zip format file |
 | python-backup.py | `python` | static | Backup file with tar format file |
 
