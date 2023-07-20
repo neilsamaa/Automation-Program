@@ -1,5 +1,4 @@
 #!/bin/bash
-# Install Docker
 sudo apt-get update -y;
 sudo apt-get install \
     ca-certificates \
@@ -14,7 +13,6 @@ echo \
 sudo apt-get update -y;
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y;
 sudo service docker start;
-# Install Portainer
 sudo docker pull portainer/portainer-ce;
 sudo docker volume create portainer_data;
 sudo docker run -d \
